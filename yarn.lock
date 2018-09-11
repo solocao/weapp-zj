@@ -3547,6 +3547,12 @@ move-concurrently@^1.0.1:
     rimraf "^2.5.4"
     run-queue "^1.0.3"
 
+mpvue-entry@^1.5.3:
+  version "1.5.3"
+  resolved "http://registry.npm.taobao.org/mpvue-entry/download/mpvue-entry-1.5.3.tgz#00dfb683a1197991041c350ed912396ccd771218"
+  dependencies:
+    mkdirp "^0.5.1"
+
 mpvue-loader@^1.1.2:
   version "1.1.4"
   resolved "http://registry.npm.taobao.org/mpvue-loader/download/mpvue-loader-1.1.4.tgz#3eee4b8473673c15c0ea5dca6c3cbfaac03699e4"
@@ -3570,6 +3576,10 @@ mpvue-loader@^1.1.2:
     vue-loader "^13.0.4"
     vue-style-loader "^3.0.0"
     vue-template-es2015-compiler "^1.5.3"
+
+mpvue-router-patch@^0.2.1:
+  version "0.2.1"
+  resolved "http://registry.npm.taobao.org/mpvue-router-patch/download/mpvue-router-patch-0.2.1.tgz#a401ca0a2c29d2203eecd2f68064cbbcd32fb796"
 
 mpvue-template-compiler@^1.0.11:
   version "1.0.13"
