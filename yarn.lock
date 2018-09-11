@@ -3154,6 +3154,10 @@ isobject@^3.0.0, isobject@^3.0.1:
   version "3.0.1"
   resolved "http://registry.npm.taobao.org/isobject/download/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
 
+iview-weapp@^2.0.0:
+  version "2.0.0"
+  resolved "http://registry.npm.taobao.org/iview-weapp/download/iview-weapp-2.0.0.tgz#4f9a83be428bab253fb0482f6792a0a461ddfd8c"
+
 js-base64@^2.1.9:
   version "2.4.9"
   resolved "http://registry.npm.taobao.org/js-base64/download/js-base64-2.4.9.tgz#748911fb04f48a60c4771b375cac45a80df11c03"
@@ -5684,6 +5688,10 @@ ws@^4.0.0:
   dependencies:
     async-limiter "~1.0.0"
     safe-buffer "~5.1.0"
+
+wux-weapp@^3.0.6:
+  version "3.0.6"
+  resolved "http://registry.npm.taobao.org/wux-weapp/download/wux-weapp-3.0.6.tgz#c1cf187a9e313fe4b83567184f7b0c8fe4a40050"
 
 xtend@^4.0.0, xtend@~4.0.1:
   version "4.0.1"
