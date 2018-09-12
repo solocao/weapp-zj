@@ -1,30 +1,12 @@
 <template>
-  <div @click="clickHandle('test click', $event)">
-    <map id="map" longitude="113.324520" latitude="23.099994" scale="14" bindcontroltap="controltap" show-location style="width: 100%; height: 300px;"></map>
-    <i-panel title="地点描述">
-      <i-input :value="value5" title="地点" autofocus placeholder="名字" />
-    </i-panel>
-    <i-panel title="上传图片、视频">
-
-    </i-panel>
-    <i-panel title="事件描述">
-
-    </i-panel>
-
-    <i-panel :title="'联系人信息'">
-      <i-input :value="value1" title="上报人" autofocus placeholder="名字" />
-      <i-input :value="value2" type="number" title="联系电话" placeholder="请输入手机号" />
-      <i-input :value="value3" type="textarea" title="详细地址" placeholder="请输入详细地址(最多50字)" maxlength="50" />
-      <i-input :value="value4" title="用户信息" disabled />
-    </i-panel>
+  <div class="container" @click="clickHandle('test click', $event)">
 
     <form class="form-container">
       <input type="text" class="form-control" v-model="motto" placeholder="v-model" />
       <input type="text" class="form-control" v-model.lazy="motto" placeholder="v-model.lazy" />
     </form>
     <a href="/pages/counter/main" class="counter">去往Vuex示例页面</a>
-    <i-button type="primary">上传</i-button>
-    <i-button type="primary">取消</i-button>
+    <i-button type="primary">这是一个按钮</i-button>
     <wux-avatar size="small">U</wux-avatar>
     <wux-avatar>U</wux-avatar>
     <wux-avatar size="large">U</wux-avatar>
@@ -38,12 +20,7 @@ export default {
   data () {
     return {
       motto: 'Hello World',
-      userInfo: {},
-      value1: 'sdf',
-      value2: 'sdf',
-      value3: 'sdf',
-      value4: 'sdf',
-      value5: '浦口区泰山街道'
+      userInfo: {}
     }
   },
 
@@ -81,6 +58,23 @@ export default {
 </script>
 
 <style scoped>
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
 .usermotto {
   margin-top: 150px;
 }
