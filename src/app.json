@@ -8,5 +8,22 @@
     "navigationBarBackgroundColor": "#145094",
     "navigationBarTitleText": "中交天和智慧平台",
     "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/main",
+        "text": "问题上报",
+        "iconPath": "static/images/report-selected.png",
+        "selectedIconPath": "static/images/report.png"
+      },
+      {
+        "pagePath": "pages/logs/main",
+        "text": "个人中心",
+        "iconPath": "static/images/me.png",
+        "selectedIconPath": "static/images/me-selected.png"
+      }
+    ]
   }
 }
