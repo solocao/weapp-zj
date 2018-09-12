@@ -6,10 +6,7 @@
       <input type="text" class="form-control" v-model.lazy="motto" placeholder="v-model.lazy" />
     </form>
     <a href="/pages/counter/main" class="counter">去往Vuex示例页面</a>
-    <i-button type="primary">这是一个按钮</i-button>
-    <wux-avatar size="small">U</wux-avatar>
-    <wux-avatar>U</wux-avatar>
-    <wux-avatar size="large">U</wux-avatar>
+
   </div>
 </template>
 
